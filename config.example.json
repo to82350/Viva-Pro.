@@ -1,0 +1,14 @@
+{
+	"mysql": {
+		"host" : "",
+		"user" : "",
+		"password" : "",
+		"database" : ""
+	},
+
+	"path": {
+		"input" : "", 			#example  "C:\Project\Input\input.txt"
+		"output" : "", 			#example "Users/Project/Output/output.txt"
+		"model_path" : "" 		#example "home/Project/ckpt/"
+	}	
+}

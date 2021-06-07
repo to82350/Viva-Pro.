@@ -1,0 +1,65 @@
+{
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^4.11.3",
+        "@testing-library/jest-dom": "^5.11.4",
+        "@testing-library/react": "^11.1.0",
+        "@testing-library/user-event": "^12.1.10",
+        "axios": "^0.21.1",
+        "body-parser": "^1.19.0",
+        "cors": "2.8.5",
+        "jsonwebtoken": "^8.5.1",
+        "marked": "^2.0.1",
+        "moment": "^2.29.1",
+        "mysql": "^2.18.1",
+        "nodemon": "^2.0.7",
+        "querystring": "^0.2.1",
+        "react": "^17.0.1",
+        "react-custom-scrollbars": "^4.2.1",
+        "react-dom": "^17.0.1",
+        "react-icons": "^4.2.0",
+        "react-markdown": "^5.0.3",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "4.0.3",
+        "react-slick": "^0.28.0",
+        "react-transition-group": "^4.4.1",
+        "remark-gfm": "^1.0.0",
+        "sass": "^1.32.8",
+        "slick-carousel": "^1.8.1",
+        "styled-components": "^5.2.1",
+        "styled-reset": "^4.3.4",
+        "web-vitals": "^1.0.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "serve": "json-server --watch db.json --port 3001",
+        "serve-auth": "node server.js",
+        "python": "nodemon python.js",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "json-server": "^0.16.3"
+    }
+}
