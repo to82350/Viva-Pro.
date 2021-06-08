@@ -211,4 +211,4 @@ $ npm run start
 
 # 시연 영상
 
-[![example_video](https://img.youtube.com/embed/yfYveP8C2bE0.jpg)](https://www.youtube.com/embed/yfYveP8C2bE)
+[![example_video](https://img.youtube.com/embed/yfYveP8C2bE/0.jpg)](https://www.youtube.com/embed/yfYveP8C2bE)
