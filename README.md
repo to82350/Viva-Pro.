@@ -149,7 +149,7 @@ $ npm run start
 ```
 # 시연 영상
 
-<iframe width="640" height="360" src="https://youtu.be/yfYveP8C2bE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="950" height="534" src="https://www.youtube.com/embed/yfYveP8C2bE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # 팀원 소개
 
