@@ -59,3 +59,61 @@ POSTPOSITION SEPERATION MODULE
 
 -------------------------------------------
 
+
+## 팀원 소개
+
+### 👑이원재(willy99624) [github](https://github.com/willy99624)
+
+- 학번
+  - 2018202059
+- 역할
+  - 모델 실행
+  - 서비스 전처리(맞춤법 검사)
+  - 서비스 후처리(조사 분리)
+
+<br/>
+
+### 🥇조우진(to82350) [github](https://github.com/to82350)
+
+- 학번
+  - 2015722057
+- 역할
+  - 모델 예측
+  - 개체명 시각화
+  - 웹 레이아웃 및 CSS
+  - DB 연동
+
+<br/>
+
+### ✡️송현우(Songhyunwoo666) [github](https://github.com/Songhyunwoo666)
+
+- 학번
+  - 2016802026
+- 역할
+  - 문서 작업
+  - PPT 제작
+  - 최종 발표
+
+<br/>
+
+### 💻신규표(Gyupyo) [github](https://github.com/Gyupyo)
+
+- 학번
+  - 2018202058
+- 역할
+  - 웹 크롤링
+  - 학습 말뭉치 전처리
+  - DB 설계
+
+<br/>
+
+### 👍손승현(sonshn) [github](https://github.com/sonshn)
+
+- 학번
+  - 2018202059
+- 역할
+  - 말뭉치 수집
+  - 모델 선정
+  - CSS
+
+<br/>
