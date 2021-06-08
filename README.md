@@ -4,7 +4,7 @@
 # 전체 시스템 구조도
 ![system](https://user-images.githubusercontent.com/56755768/121120955-a0c76a00-c859-11eb-978e-9aaf8b3d4f55.png)
 
-## Dependencies
+## Requirements
 
 - python==3.7.6
 - transformers==4.3.2
