@@ -9,8 +9,10 @@ Viva Pro.팀의 서비스를 위한 **ER-diagram**입니다.
 ## 테이블 정보
 
 - ### CREATE_table.sql
-
   모든 테이블을 생성하기 위한 정보를 가지고 있습니다.
 
 - ### CREATE_function.sql
-  SQL에서 사용되는 사용자 정의 함수 정보를 가지고 있습니다.
+  사용자 정의 함수 정보를 가지고 있습니다.
+
+- ### CREATE_procedure.sql
+  사용자 정의 프로시저 정보를 가지고 있습니다.
