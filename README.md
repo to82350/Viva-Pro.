@@ -1,3 +1,4 @@
+
 # Viva Pro.
 광운대학교 제 5회 산학연계 SW프로젝트(2020-2021) - 한화시스템
 
@@ -211,4 +212,4 @@ $ npm run start
 
 # 시연 영상
 
-[![example_video](https://img.youtu.be/yfYveP8C2bE/default)](https://youtu.be/yfYveP8C2bE)
+[![example_video](https://img.youtube.com/vi/yfYveP8C2bE/0.jpg)](https://youtu.be/yfYveP8C2bE)
