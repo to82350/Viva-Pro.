@@ -6,21 +6,23 @@
 
 # 모듈 설명
 
------ NER SERVICE MODULE -----
+-
+
+### NER SERVICE MODULE
 
 + 웹 페이지 형태의 서비스
 + 사용자가 웹페이지에 개체명 인식을 원하는 문장을 입력
 + 웹에서 결과가 시각화
 
--------------------------------
+-
 
------ TRAINING MODULE -----
+### TRAINING MODULE
 
 + KoLECTRA가 CORPUS를 학습
 
-----------------------------
+-
 
------ S.N.P MODULE -----
+### S.N.P MODULE
 
 NER PREDICTION MODULE
 + SPELL CHECK MODULE에서 전처리가 완료된 입력 파일과 학습을 마친 TRAINING MODULE을 호출하여 예측 및 추론
@@ -31,5 +33,5 @@ SPELL CHECK MODULE :
 POSTPOSITION SEPERATION MODULE : 
 + 개체명에 부착된 조사를 분리
 
-------------------------
+-
 
