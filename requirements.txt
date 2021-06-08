@@ -1,0 +1,16 @@
+python==3.7.6
+transformers==4.3.2
+tqdm==4.47.0
+torch==1.7.1
+tokenizers==0.10.1
+tensorflow==1.14.0
+six==1.14.0
+seqeval==1.2.2
+sentencepiece==0.1.95
+PyMySQL==1.0.2
+py-hanspell==1.1
+numpy==1.18.1
+mecab-python==0.996-ko-0.9.2
+mecab-python3==1.0.3
+konlpy==0.5.2
+attrdict==2.0.1
