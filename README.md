@@ -7,7 +7,7 @@
 
 2018202059 이원재 👑 (https://github.com/willy99624)
 
-2015722057 조우진 🥇 (https://github.com/to8235)
+2015722057 조우진 🥇 (https://github.com/to82350)
 
 2016802026 송현우 ✡️ (https://github.com/Songhyunwoo666)
 
