@@ -147,8 +147,7 @@ $ npm run python
 ```bash
 $ npm run start
 ```
-# 시연 영상
-https://www.youtube.com/embed/yfYveP8C2bE
+--------------------------------------------------------------
 
 # 팀원 소개
 
@@ -207,3 +206,9 @@ https://www.youtube.com/embed/yfYveP8C2bE
   - CSS
 
 <br/>
+
+---------------------------------------------------------------------
+
+# 시연 영상
+
+[![example_video](https://img.youtube.com/embed/yfYveP8C2bE0.jpg)](https://www.youtube.com/embed/yfYveP8C2bE)
