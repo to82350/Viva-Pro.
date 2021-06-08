@@ -147,7 +147,9 @@ $ npm run python
 ```bash
 $ npm run start
 ```
+# 시연 영상
 
+https://youtu.be/yfYveP8C2bE
 
 # 팀원 소개
 
