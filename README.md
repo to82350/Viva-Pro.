@@ -35,7 +35,7 @@ POSTPOSITION SEPERATION MODULE
 
 -------------------------------------------
 
-## Requirements
+# Requirements
 
 - python==3.7.6
 - transformers==4.3.2
@@ -61,7 +61,7 @@ $ pip install -r requirements.txt
 
 
 
-## 팀원 소개
+# 팀원 소개
 
 ### 👑이원재(willy99624) [github](https://github.com/willy99624)
 
@@ -118,3 +118,24 @@ $ pip install -r requirements.txt
   - CSS
 
 <br/>
+
+# Program Build Manual
+
+① !pip install transformers
+→ transformers 라이브러리를 설치합니다.
+
+② from transformers import ElectraModel, ElectraTokenizer
+→ transformers 라이브러리의 ElectraModel과 ElectraTokenizer를 추가합니다.
+
+③ model = ElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator")
+→ 저희팀은 KoELECTRA의 Base 모델과 Small 모델 중 Base 모델을 사용하였습니다. 또한, v1, v2, v3 중 v3를 사용하였습니다.
+
+④ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
+
+⑤ !pip install attrdict
+→ attrdict를 설치합니다.
+
+⑥ !pip install seqeval
+→ seqeval을 설치합니다.
+
+⑦ run_ner.py 파일과 koelectra-base-v3.json 파일을 이용해서 코드를 실행합니다.
