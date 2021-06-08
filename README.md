@@ -108,10 +108,10 @@ $ pip install -r requirements.txt
 
 <br/>
 
-### 👍손승현(sonshn) [github](https://github.com/sonshn)
+### 💡손승현(sonshn) [github](https://github.com/sonshn)
 
 - 학번
-  - 2018202059
+  - 2018202064
 - 역할
   - 말뭉치 수집
   - 모델 선정
