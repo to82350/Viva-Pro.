@@ -59,6 +59,68 @@ $ pip3 install -r requirements.txt
 $ pip install -r requirements.txt
 ```
 
+#Usage
+-------------------------------------
+## Program Build Manual
+
+① !pip install transformers <br>
+→ transformers 라이브러리를 설치합니다.
+
+② from transformers import ElectraModel, ElectraTokenizer <br>
+→ transformers 라이브러리의 ElectraModel과 ElectraTokenizer를 추가합니다.
+
+③ model = ElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator") <br>
+→ 저희팀은 KoELECTRA의 Base 모델과 Small 모델 중 Base 모델을 사용하였습니다. 또한, v1, v2, v3 중 v3를 사용하였습니다.
+
+④ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
+
+⑤ !pip install attrdict <br>
+→ attrdict를 설치합니다.
+
+⑥ !pip install seqeval <br>
+→ seqeval을 설치합니다.
+
+⑦ run_ner.py 파일과 koelectra-base-v3.json 파일을 이용해서 코드를 실행합니다. <br>
+
+-------------------------------------------------------------------------
+## Config
+
+#### config.js
+```javascript
+module.exports = {
+	mysql: {
+		host: "",       // localhost or IP Address
+		user: "",       // mysql user
+		password: "",   // mysql user's password
+		database: ""    // mysql database name
+	},
+	secretInfo: {
+		key: "",        // for login SECRET KEY
+	},
+	papago: {         // for translation, papago API
+		clientId: "",
+		clientSecret: ""
+	}
+};
+```
+
+#### config.json
+```json
+{
+	"mysql": {
+		"host" : "",        // localhost or IP Address
+		"user" : "",        // mysql user
+		"password" : "",    // mysql user's password
+		"database" : ""     // mysql database name
+	},
+
+	"path": {
+		"input" : "",       // Input path
+		"output" : "",      // Output path
+		"model_path" : ""   // Model path
+	}	
+}
+```
 
 
 # 팀원 소개
@@ -118,24 +180,3 @@ $ pip install -r requirements.txt
   - CSS
 
 <br/>
-
-# Program Build Manual
-
-① !pip install transformers <br>
-→ transformers 라이브러리를 설치합니다.
-
-② from transformers import ElectraModel, ElectraTokenizer <br>
-→ transformers 라이브러리의 ElectraModel과 ElectraTokenizer를 추가합니다.
-
-③ model = ElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator") <br>
-→ 저희팀은 KoELECTRA의 Base 모델과 Small 모델 중 Base 모델을 사용하였습니다. 또한, v1, v2, v3 중 v3를 사용하였습니다.
-
-④ tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
-
-⑤ !pip install attrdict <br>
-→ attrdict를 설치합니다.
-
-⑥ !pip install seqeval <br>
-→ seqeval을 설치합니다.
-
-⑦ run_ner.py 파일과 koelectra-base-v3.json 파일을 이용해서 코드를 실행합니다. <br>
