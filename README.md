@@ -27,10 +27,10 @@
 NER PREDICTION MODULE
 + SPELL CHECK MODULE에서 전처리가 완료된 입력 파일과 학습을 마친 TRAINING MODULE을 호출하여 예측 및 추론
 
-SPELL CHECK MODULE :
+SPELL CHECK MODULE
 + 맞춤법과 띄어쓰기가 올바르게 표기되어 입력 파일로 준비
 
-POSTPOSITION SEPERATION MODULE : 
+POSTPOSITION SEPERATION MODULE
 + 개체명에 부착된 조사를 분리
 
 -------------------------------------------
