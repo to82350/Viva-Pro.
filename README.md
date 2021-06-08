@@ -117,11 +117,35 @@ module.exports = {
 	},
 
 	"path": {
-		"input" : "C:\Desktop\Project\Input or Users/ABC/Downloads/Project/Input or home/ABC/Project/Input",
+		"input" : "Users/ABC/Downloads/Project/Input or home/ABC/Project/Input",
 		"output" : "Output path",
 		"model_path" : "Model path"
 	}	
 }
+```
+---------------------------------------------------------------------------------------
+### node.js
+
+#### Install npm packages
+```bash
+$ npm install
+$ npm install packages_name
+```
+
+#### Run Local Server
+```bash
+$ nodemon server.js
+$ node server.js
+```
+
+#### Python Module Interworking, Papago translation
+```bash
+$ npm run python
+```
+
+#### Run client
+```bash
+$ npm run start
 ```
 
 
