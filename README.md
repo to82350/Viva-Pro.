@@ -4,30 +4,6 @@
 # 전체 시스템 구조도
 ![system](https://user-images.githubusercontent.com/56755768/121120955-a0c76a00-c859-11eb-978e-9aaf8b3d4f55.png)
 
-## Requirements
-
-- python==3.7.6
-- transformers==4.3.2
-- tqdm==4.47.0
-- torch==1.7.1
-- tokenizers==0.10.1
-- tensorflow==1.14.0
-- six==1.14.0
-- seqeval==1.2.2
-- sentencepiece==0.1.95
-- PyMySQL==1.0.2
-- py-hanspell==1.1
-- numpy==1.18.1
-- mecab-python==0.996-ko-0.9.2
-- mecab-python3==1.0.3
-- konlpy==0.5.2
-- attrdict==2.0.1
-
-```bash
-$ pip3 install -r requirements.txt
-$ pip install -r requirements.txt
-```
-
 # 모듈 설명
 
 -------------------------------------
@@ -58,6 +34,31 @@ POSTPOSITION SEPERATION MODULE
 + 개체명에 부착된 조사를 분리
 
 -------------------------------------------
+
+## Requirements
+
+- python==3.7.6
+- transformers==4.3.2
+- tqdm==4.47.0
+- torch==1.7.1
+- tokenizers==0.10.1
+- tensorflow==1.14.0
+- six==1.14.0
+- seqeval==1.2.2
+- sentencepiece==0.1.95
+- PyMySQL==1.0.2
+- py-hanspell==1.1
+- numpy==1.18.1
+- mecab-python==0.996-ko-0.9.2
+- mecab-python3==1.0.3
+- konlpy==0.5.2
+- attrdict==2.0.1
+
+```bash
+$ pip3 install -r requirements.txt
+$ pip install -r requirements.txt
+```
+
 
 
 ## 팀원 소개
