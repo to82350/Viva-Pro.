@@ -9,6 +9,6 @@
 ```python
 from transformers import ElectraModel, ElectraTokenizer
 
-model = ElectraModel.from_pretrained("monologg/koelectra-base-v3-discriminator")
-tokenizer = ElectraTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
+model = ElectraModel.from_pretra
+우진이형 사랑해요~~~♡
 ```
