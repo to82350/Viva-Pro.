@@ -42,7 +42,7 @@ $ pip install -r requirements.txt
 
 ### TRAINING MODULE
 
-+ KoLECTRA가 CORPUS를 학습
++ KoELECTRA가 CORPUS를 학습
 
 ----------------------------------------
 
