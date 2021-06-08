@@ -59,9 +59,11 @@ $ pip3 install -r requirements.txt
 $ pip install -r requirements.txt
 ```
 
-#Usage
+
+# Usage
 -------------------------------------
-## Program Build Manual
+
+### Program Build Manual
 
 ① !pip install transformers <br>
 → transformers 라이브러리를 설치합니다.
@@ -83,7 +85,7 @@ $ pip install -r requirements.txt
 ⑦ run_ner.py 파일과 koelectra-base-v3.json 파일을 이용해서 코드를 실행합니다. <br>
 
 -------------------------------------------------------------------------
-## Config
+### Config
 
 #### config.js
 ```javascript
@@ -108,16 +110,16 @@ module.exports = {
 ```json
 {
 	"mysql": {
-		"host" : "",        // localhost or IP Address
-		"user" : "",        // mysql user
-		"password" : "",    // mysql user's password
-		"database" : ""     // mysql database name
+		"host" : "localhost or IP Address",
+		"user" : "mysql user",
+		"password" : "mysql user's password",
+		"database" : "mysql user's password"
 	},
 
 	"path": {
-		"input" : "",       // Input path
-		"output" : "",      // Output path
-		"model_path" : ""   // Model path
+		"input" : "C:\Desktop\Project\Input or Users/ABC/Downloads/Project/Input or home/ABC/Project/Input",
+		"output" : "Output path",
+		"model_path" : "Model path"
 	}	
 }
 ```
