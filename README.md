@@ -209,7 +209,3 @@ $ npm run start
 <br/>
 
 ---------------------------------------------------------------------
-
-# 시연 영상
-
-[![example_video](https://img.youtube.com/vi/kRJhrxoP3tE/0.jpg)](https://youtu.be/kRJhrxoP3tE)
