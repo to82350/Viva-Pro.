@@ -205,9 +205,3 @@ $ npm run start
   - 말뭉치 수집
   - 모델 선정
   - CSS
-
-<br/>
-
-# 시연영상 링크
-
-https://youtu.be/pqg0CTN1-JM
